@@ -6,14 +6,8 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: url('background.png') repeat center center/cover;
-    backdrop-filter: blur(5px);
+    background-color: #0e0d0d;
+    color: #e7e2e2;
 }
 
 .container {
