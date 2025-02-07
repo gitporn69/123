@@ -21,8 +21,8 @@ async function fetchMedia() {
                 if (navigator.share) {
                     try {
                         await navigator.share({
-                            title: 'Check this out!',
-                            text: 'Here is a link for you:',
+                            title: 'Check this out:`${file.name}`',
+                            text: 'Enjoy jerking with xGBster:',
                             url: link
                         });
                         console.log('Shared successfully');
