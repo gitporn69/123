@@ -82,7 +82,7 @@ function shareButtonFunction(file) {
     shareButton.textContent = 'Share Link';
 
     shareButton.onclick = async () => {
-        const link = `https://doraemon-fan12.github.io/123-server/${file.name}`;
+        const link = `https://gitporn69.github.io/123-server/${file.name}`;
 
         if (navigator.share) {
             try {
